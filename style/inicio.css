@@ -1,8 +1,10 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Petit+Formal+Script&family=Yeseva+One&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap');
+
 @font-face {
-    font-family: 'gagalin';
+    font-family: 'Gagalin';
     src: url(Gagalin-Regular.otf);
 }
 
@@ -13,8 +15,63 @@ Rosa: #D99FA9
 Roxo escuro: #59475D
 
 fontes:
-
+font título
+font-family: 'Berkshire Swash', serif;
 
 font padrão
 font-family: 'Petit Formal Script', cursive;
 */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: whitesmoke;
+}
+
+header {
+    height: 12em;
+    background-color: #3C4663;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 1em 0em 1em #3c46639f;
+}
+
+#logo-confeitaria {
+    width: 14em;
+    border-radius: 50%;
+}
+
+header ol li{
+    display: inline;
+    text-decoration: none;
+}
+
+.items-list {
+    color: whitesmoke;
+    text-decoration: none;
+    font-family: 'Gagalin', sans-serif;
+    font-size: 2em;
+    font-weight: normal;
+    margin-right: 1.4em;
+}
+
+.items-list:hover {
+    color: #D99FA9;
+    filter: drop-shadow(1px 1px 0.5px #d99fa95b);
+}
+
+h1 {
+    color: #3C4663;
+    font-family: 'Berkshire Swash', serif;
+    font-size: 8em;
+    text-align: center;
+}
+
+main {
+    margin: 1em 0em;
+}
