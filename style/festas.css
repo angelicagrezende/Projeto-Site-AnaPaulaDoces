@@ -1,4 +1,3 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Petit+Formal+Script&family=Yeseva+One&display=swap');
 
 @import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap');
@@ -38,7 +37,7 @@ header {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    box-shadow: 1em 0em 1em #3c46639f;
+    box-shadow: 1em 0em 1em #3c466371;
 }
 
 #logo-confeitaria {
@@ -70,13 +69,10 @@ h1 {
     font-family: 'Berkshire Swash', serif;
     font-size: 6.6em;
     text-align: center;
+    margin: 0.5em 0em;
 }
 
-main {
-    margin: 1em 0em;
-}
-
-.secao-doces {
+#secao-gotinhas {
     width: 80em;
     height: 44.2em;
     display: flex;
@@ -84,11 +80,11 @@ main {
     align-items: center;
     border: 3px solid #D99FA9;
     border-radius: 2.2em;
-    margin: 4em auto;
-    box-shadow: -4px 4px 8px #d99fa962, 4px -4px 8px #d99fa962;
+    box-shadow: -4px 4px 8px #d99fa927, 4px -4px 8px #d99fa927;
+    margin-left: 2em;
 }
 
-.secao-doces h2 {
+#secao-gotinhas h2 {
     width: 10em;
     font-family: 'Petit Formal Script', cursive;
     font-size: 2.2em;
@@ -96,34 +92,26 @@ main {
     margin: 0 auto;
 }
 
-.secao-doces img {
+#secao-gotinhas img {
     width: 44em;
     height: 43.9em;
     border-radius: 0em 2em 2em 0em;
+    box-shadow: -4px 4px 8px #d99fa962, 4px -4px 8px #d99fa962;
 }
 
-section {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 56em;
-    background-color: #D99FA9;
-    box-shadow: -4px 4px 8px #d99fa97c, 4px -4px 8px #d99fa97c;
-}
-
-.secao-doces-colorida {
-    width: 80em;
-    height: 44.2em;
+#secao-bolo-kinder {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border: 3px solid #3C4663;
+    width: 80em;
+    height: 44.2em;
+    border: 3px solid #D99FA9;
     border-radius: 2.2em;
-    box-shadow: -4px 4px 8px #3c466367, 4px -4px 8px #3c466367;
-    margin: 0 auto;
+    margin: 4em auto;
+    box-shadow: -4px 4px 8px #d99fa927, 4px -4px 8px #d99fa927;
 }
 
-.secao-doces-colorida h2{
+#secao-bolo-kinder h2 {
     width: 10em;
     font-family: 'Petit Formal Script', cursive;
     font-size: 2.2em;
@@ -131,9 +119,88 @@ section {
     margin: 0 auto;
 }
 
-.secao-doces-colorida img {
+#secao-bolo-kinder img {
+    width: 44em;
+    height: 43.9em;
+    border-radius: 0em 2em 2em 0em;
+    box-shadow: -4px 4px 8px #d99fa962, 4px -4px 8px #d99fa962;
+}
+
+#secao-gotas-gourmet {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80em;
+    height: 44.2em;
+    border: 3px solid #D99FA9;
+    border-radius: 2.2em;
+    box-shadow: -4px 4px 8px #d99fa927, 4px -4px 8px #d99fa927;
+    margin-right: 2em;
+}
+
+#secao-gotas-gourmet h2 {
+    width: 10em;
+    font-family: 'Petit Formal Script', cursive;
+    font-size: 2.2em;
+    text-align: center;
+    margin: 0 auto;
+}
+
+#secao-gotas-gourmet img {
+    width: 44em;
     height: 43.8em;
-    border-radius: 2em 0em 0em 2em;
+    border-radius: 0em 2em 2em 0em;
+    box-shadow: -4px 4px 8px #d99fa962, 4px -4px 8px #d99fa962;
+}
+
+section {
+    background-color: #D99FA9;
+    margin: 4em 0em;
+    padding: 1.8em 0em;
+}
+
+section h2 {
+    width: 40em;
+    margin: 1.2em auto;
+    text-align: center;
+    color: #3C4663;
+    font-size: 2em;
+}
+
+#secao-instagram {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.img-instagram {
+    width: 22em;
+    height: 22em;
+    box-shadow: -2px 2px 6px rgba(0, 0, 0, 0.233), 2px -2px 6px rgba(0, 0, 0, 0.233);
+    margin-bottom: 2em;
+}
+
+button {
+    margin: 0 auto;
+    background-color: #D99FA9;
+    padding: 0.8em;
+    border: 3px solid #3C4663;
+    border-radius: 2em;
+    color: #3C4663;
+    font-size: 1.1em;
+    font-weight: bolder;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button a {
+    text-decoration: none;
+    color: #3C4663;
+}
+
+#logo-instagram {
+    width: 3.1em;
+    margin-right: 1em;
 }
 
 footer {

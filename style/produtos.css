@@ -1,4 +1,3 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Petit+Formal+Script&family=Yeseva+One&display=swap');
 
 @import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap');
@@ -38,7 +37,7 @@ header {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    box-shadow: 1em 0em 1em #3c46639f;
+    box-shadow: 1em 0em 1em #3c466371;
 }
 
 #logo-confeitaria {
@@ -72,68 +71,59 @@ h1 {
     text-align: center;
 }
 
-main {
-    margin: 1em 0em;
-}
-
-.secao-doces {
-    width: 80em;
-    height: 44.2em;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    border: 3px solid #D99FA9;
-    border-radius: 2.2em;
-    margin: 4em auto;
-    box-shadow: -4px 4px 8px #d99fa962, 4px -4px 8px #d99fa962;
-}
-
-.secao-doces h2 {
-    width: 10em;
-    font-family: 'Petit Formal Script', cursive;
-    font-size: 2.2em;
+h2 {
     text-align: center;
-    margin: 0 auto;
-}
-
-.secao-doces img {
-    width: 44em;
-    height: 43.9em;
-    border-radius: 0em 2em 2em 0em;
+    width: 50em;
+    font-size: 2.4em;
+    margin: 1em auto;
+    color: #D99FA9;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.301);
 }
 
 section {
+    display: block;
+    margin: 0 auto;
+}
+
+.cardapio {
+    background-color: #3C4663;
+    width: 50vw;
+    height: 3em;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 56em;
-    background-color: #D99FA9;
-    box-shadow: -4px 4px 8px #d99fa97c, 4px -4px 8px #d99fa97c;
-}
-
-.secao-doces-colorida {
-    width: 80em;
-    height: 44.2em;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    border: 3px solid #3C4663;
-    border-radius: 2.2em;
-    box-shadow: -4px 4px 8px #3c466367, 4px -4px 8px #3c466367;
+    font-family: 'Gagalin';
+    font-weight: normal;
+    font-size: 1.6em;
+    color: #D99FA9;
     margin: 0 auto;
 }
 
-.secao-doces-colorida h2{
-    width: 10em;
-    font-family: 'Petit Formal Script', cursive;
-    font-size: 2.2em;
-    text-align: center;
-    margin: 0 auto;
+.list-cardapio {
+    background-color: rgba(128, 128, 128, 0.062);
+    border: 1px solid rgba(0, 0, 0, 0.178);
+    width: 50vw;
+    margin: 0 auto 2em auto;
+    list-style: none;
+    border-radius: 0em 0em 2em 2em;
 }
 
-.secao-doces-colorida img {
-    height: 43.8em;
-    border-radius: 2em 0em 0em 2em;
+.list-cardapio li {
+    padding: 1.4em;
+}
+
+.items-cardapio {
+    border-bottom: 2px solid black;
+    padding: 1.4em;
+}
+
+h3 {
+    font-size: 1.2em;
+    margin-bottom: 0.8em;
+}
+
+p {
+    font-size: 1.1em;
 }
 
 footer {
