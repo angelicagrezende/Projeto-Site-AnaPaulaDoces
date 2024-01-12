@@ -10,7 +10,7 @@
 /*
 Cores:
 Roxo forte: #3C4663
-Rosa: #D99FA9
+Rosa: #eb9da3
 Roxo escuro: #59475D
 
 fontes:
@@ -60,7 +60,7 @@ header ol li{
 }
 
 .items-list:hover {
-    color: #D99FA9;
+    color: #eb9da3;
     filter: drop-shadow(1px 1px 0.5px #d99fa95b);
 }
 
@@ -78,7 +78,7 @@ h1 {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border: 3px solid #D99FA9;
+    border: 3px solid #eb9da3;
     border-radius: 2.2em;
     box-shadow: -4px 4px 8px #d99fa927, 4px -4px 8px #d99fa927;
     margin-left: 2em;
@@ -105,7 +105,7 @@ h1 {
     align-items: center;
     width: 80em;
     height: 44.2em;
-    border: 3px solid #D99FA9;
+    border: 3px solid #eb9da3;
     border-radius: 2.2em;
     margin: 4em auto;
     box-shadow: -4px 4px 8px #d99fa927, 4px -4px 8px #d99fa927;
@@ -132,10 +132,10 @@ h1 {
     align-items: center;
     width: 80em;
     height: 44.2em;
-    border: 3px solid #D99FA9;
+    border: 3px solid #eb9da3;
     border-radius: 2.2em;
     box-shadow: -4px 4px 8px #d99fa927, 4px -4px 8px #d99fa927;
-    margin-right: 2em;
+    margin-left: 2em;
 }
 
 #secao-gotas-gourmet h2 {
@@ -154,9 +154,10 @@ h1 {
 }
 
 section {
-    background-color: #D99FA9;
+    background-color: #eb9da3;
     margin: 4em 0em;
     padding: 1.8em 0em;
+    box-shadow: 3px 3px 6px #eb9da48a, -3px -3px 6px #eb9da48a;
 }
 
 section h2 {
@@ -175,15 +176,15 @@ section h2 {
 .img-instagram {
     width: 22em;
     height: 22em;
-    box-shadow: -2px 2px 6px rgba(0, 0, 0, 0.233), 2px -2px 6px rgba(0, 0, 0, 0.233);
+    box-shadow: -2px 2px 10px rgba(0, 0, 0, 0.233), 2px -2px 10px rgba(0, 0, 0, 0.233);
     margin-bottom: 2em;
 }
 
 button {
     margin: 0 auto;
-    background-color: #D99FA9;
+    background-color: #eb9da3;
     padding: 0.8em;
-    border: 3px solid #3C4663;
+    border: 3px solid #ffebec;
     border-radius: 2em;
     color: #3C4663;
     font-size: 1.1em;
@@ -195,7 +196,7 @@ button {
 
 button a {
     text-decoration: none;
-    color: #3C4663;
+    color: #ffebec;
 }
 
 #logo-instagram {
@@ -216,7 +217,7 @@ footer ol li {
 }
 
 .menu-footer {
-    color: #D99FA9;
+    color: #eb9da3;
     text-decoration: none;
     font-family: 'Gagalin', sans-serif;
     font-size: 1.4em;
@@ -228,7 +229,7 @@ footer ol li {
 }
 
 .endereço-e-direitos {
-    color: #D99FA9;
+    color: #eb9da3;
     margin-top: 14em;
     font-size: 1.2em;
     
