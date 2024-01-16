@@ -78,10 +78,67 @@ h1 {
     margin: 4em 0em;
 }
 
+.contato-whatsapp {
+    width: 8.6em;
+    margin: 0em 0em 2em 8.4em;
+}
+
+.nomeacao-contatos {
+    color: #3C4663;
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 0.8em;
+}
+
+.frases-efeito {
+    color: gray;
+    text-align: center;
+    font-size: 1.2em;
+    margin-bottom: 1em;
+}
+
+.contatos {
+    color: #3C4663;
+    text-align: center;
+    font-size: 2.2em;
+    width: 11em;
+}
+
+.contato-instagram {
+    width: 8.2em;
+    margin: 0em 0em 2em 7.8em;
+}
+
+.contato-facebook {
+    width: 8.2em;
+    margin: 0em 0em 2em 7.8em;
+}
+
 .vertical {
     background-color: #eb9da3;
     width: 0.4em;
-    height: 20em;
+    height: 26em;
+}
+
+#localizacao {
+    background-color: #eb9da3;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 3em 0em;
+    margin: 3em 0em;
+    box-shadow: 3px 3px 6px #eb9da48a, -3px -3px 6px #eb9da48a;
+}
+
+#vertical {
+    background-color: whitesmoke;
+    width: 0.4em;
+    height: 26em;
+}
+
+.contato-endereco {
+    width: 8.6em;
+    margin: 0em 0em 2em 8em;
 }
 
 
